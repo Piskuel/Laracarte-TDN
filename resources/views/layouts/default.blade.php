@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('/bootstrap/dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/fontawesome/css/all.css') }}">
-    <title>Laracarte</title>
+    <title>{{ page_title($title ?? '') }}</title>
+
     <style>
         footer{
             margin: 4em 0;
