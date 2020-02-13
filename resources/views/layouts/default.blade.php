@@ -12,6 +12,9 @@
         footer{
             margin: 4em 0;
         }
+        .active{
+            background-color: #ccc;
+        }
     </style>
 </head>
 <body>
